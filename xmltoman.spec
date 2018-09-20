@@ -1,6 +1,6 @@
 Name:           xmltoman
 Version:        0.4
-Release:        4
+Release:        1
 Summary:        Scripts for converting XML to roff or HTML
 
 Group:          Publishing
