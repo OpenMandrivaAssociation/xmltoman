@@ -7,7 +7,7 @@ Group:          Publishing
 License:        GPLv2+
 URL:            http://sourceforge.net/projects/xmltoman/
 Source0:        http://downloads.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
-Patch0:         xmltoman-0.3-timestamps.patch
+#Patch0:         xmltoman-0.3-timestamps.patch
 
 BuildRequires:  perl(XML::Parser)
 BuildArch:      noarch
@@ -21,7 +21,7 @@ for doing rougly the same job is provided.
 
 %prep
 %setup -q
-%patch0 -p1 -b .timestamps
+#patch0 -p1 -b .timestamps
 
 
 %build
