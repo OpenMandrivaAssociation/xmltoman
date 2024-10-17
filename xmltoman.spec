@@ -5,7 +5,7 @@ Summary:        Scripts for converting XML to roff or HTML
 
 Group:          Publishing
 License:        GPLv2+
-URL:            http://sourceforge.net/projects/xmltoman/
+URL:            https://sourceforge.net/projects/xmltoman/
 Source0:        http://downloads.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
 #Patch0:         xmltoman-0.3-timestamps.patch
 
