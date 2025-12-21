@@ -9,6 +9,7 @@ URL:            https://sourceforge.net/projects/xmltoman/
 Source0:        http://downloads.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
 #Patch0:         xmltoman-0.3-timestamps.patch
 
+BuildRequires:	make
 BuildRequires:  perl(XML::Parser)
 BuildArch:      noarch
 
